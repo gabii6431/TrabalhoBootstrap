@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Novo Aluno</title>
+
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+
+  <div id="area-cabecalho">
+
+    <div id="area-logo">
+        <h1>Instituto Federal do Sul de Minas</h1>
+    </div>
+
+    <div class="col-xl-12">
+      <ul class="nav justify-content-center">
+         <li class="nav-item">
+          <a class="nav-link active" href="principal.html">Principal</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Institutos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novoInstituto.html">Novo instituto</a>
+            <a class="dropdown-item" href="listarInstitutos.html">Listar institutos</a>
+          </div>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Departamentos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novoDepartamento.html">Novo departamento</a>
+            <a class="dropdown-item" href="#">Listar departamentos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novoCurso.html">Novo curso</a>
+            <a class="dropdown-item" href="listarCursosAdministrador.html">Listar cursos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Disciplinas</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novaDisciplina.html">Nova disciplina</a>
+            <a class="dropdown-item" href="listarDisciplinasAdministrador.html">Listar disciplinas</a>
+            <a class="dropdown-item" href="matricularAluno.html">Matricular aluno</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Professores</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novoProfessor.html">Novo professor</a>
+            <a class="dropdown-item" href="#">Listar professores</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Alunos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="novoAluno.html">Novo Aluno</a>
+            <a class="dropdown-item" href="alunosMatriculadosAdministrador.html">Listar alunos</a>
+            <a class="dropdown-item" href="informacaoAlunosAdministrador.html">Informações do aluno</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contatos.html">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="duvidas.html">Dúvidas</a>
+        </li>
+      </ul>            
+   </div>      
+  </div>
+
+  <div class="container-fluid">
+
+    <div id="area-formulario">
+
+      <div id="area-titulo">
+        <h1>Novo Aluno</h1>
+      </div>
+
+      <form>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Matricula</label>
+            <input type="input" class="form-control" id="inputMatricula" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Nome</label>
+            <input type="input" class="form-control" id="inputNome" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Email</label>
+            <input type="input" class="form-control" id="inputEmail" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Telefone</label>
+            <input type="input" class="form-control" id="inputTelefone" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-9">
+            <label for="inputAddress">Rua</label>
+            <input type="input" class="form-control" id="inputRua" placeholder="">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputAddress">Numero</label>
+            <input type="input" class="form-control" id="inputNumero" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputAddress">Bairro</label>
+          <input type="input" class="form-control" id="inputBairro" placeholder="">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="input" class="form-control" id="inputCidade">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control">
+              <option selected>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Distrito Federal</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso so Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
+            </select>
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="inputZip">CEP</label>
+            <input type="input" class="form-control" id="inputCEP">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Ano de inicio</label>
+            <input type="input" class="form-control" id="inputAnoInicio" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputState">Curso</label>
+                <select id="inputCurso" class="form-control">
+                  <option selected>Engenharia da Computação</option>
+                  <option>Biologia</option>
+                  <option>Gestão Comercial</option>
+                  <option>Gestão Ambiental</option>
+                  <option>Geografia</option>
+                </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputSemestre">Semestre</label>
+                <select id="inputState" class="form-control">
+                  <option selected>1° semestre</option>
+                  <option>2° semestre</option>
+                </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputEmail4">Usuário</label>
+            <input type="input" class="form-control" id="inputUsuário" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputPassword4">Senha</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-sm-2">Bolsista</div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Sim</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Não</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Cadastrar</button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

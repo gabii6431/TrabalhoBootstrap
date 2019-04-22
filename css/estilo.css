@@ -1,0 +1,107 @@
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+button{
+	margin: 5px;
+	color: #008B8B;
+}
+
+#area-cabecalho {
+	background-color: #008B8B;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo{
+	padding: 10px; 
+}
+
+#area-logo h1{
+	color: white;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #2F4F4F;
+	padding: 8px 12px;
+}
+
+#area-descricao {
+	margin-left: 280px;
+	margin-top: 50px;
+	padding: 20px;
+	width: 820px;
+	background: #DCDCDC;
+	text-align: center;
+}
+
+#area-formulario {
+	margin-left: 280px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	width: 820px;
+	background: #DCDCDC;
+}
+
+#area-titulo h1{
+	text-align: center;
+}
+
+#conteudo{
+	width: 100%;
+	float: left;
+	background: #DCDCDC;
+}
+
+#conteudo-principal{
+	padding-top: 20px; 
+	margin-left: 100px;
+	width: 100%;/*320px*/
+	float: left;
+
+}
+
+.formato-texto-sobre
+{
+	font-family: 'ABeeZee', sans-serif;
+	float: left;
+	margin-left: 20px;
+	margin-top: 75px;
+	font-family: 'ABeeZee', sans-serif;
+
+}
+
+.foto-sobre
+{
+	float: left;
+	margin-left: 50px;
+}
+
+.texto
+{
+	text-align: justify;
+}
+
+.coluna
+{
+	width: 100px;
+}
+
+.table
+{
+	margin-top: 1%;
+}
+
+.formato-link
+{
+	text-decoration: none;
+	color: white;
+}
+
+a.formato-link:hover
+{
+	text-decoration: none;
+	color: white;
+}

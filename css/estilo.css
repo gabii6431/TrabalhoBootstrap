@@ -8,7 +8,8 @@ button{
 	color: #008B8B;
 }
 
-.form-control-borderless {
+.form-control-borderless 
+{
     border: none;
 }
 

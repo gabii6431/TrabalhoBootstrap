@@ -8,6 +8,16 @@ button{
 	color: #008B8B;
 }
 
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
 #area-cabecalho {
 	background-color: #008B8B;
 	padding: 15px;

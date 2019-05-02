@@ -45,17 +45,15 @@ button{
 }
 
 #area-descricao {
-	margin-left: 280px;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding: 20px;
-	width: 820px;
 	background: #DCDCDC;
 	text-align: center;
 }
 
 #area-formulario {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 20px;
 	background: #DCDCDC;
 }

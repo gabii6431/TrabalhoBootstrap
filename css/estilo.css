@@ -8,6 +8,12 @@ button{
 	color: #008B8B;
 }
 
+.formato-input
+{
+	width: 20%;
+	float: right;
+}
+
 .form-control-borderless 
 {
     border: none;
@@ -48,11 +54,9 @@ button{
 }
 
 #area-formulario {
-	margin-left: 280px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding: 20px;
-	width: 820px;
 	background: #DCDCDC;
 }
 
